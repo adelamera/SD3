@@ -13,7 +13,7 @@ public class Student {
 
 	}
 
-	public Student(String name, String email, String username, String password, int groupNr, String hobby) {
+	public Student(int groupNr, String name, String email, String username, String password, String hobby) {
 		this.name = name;
 		this.email = email;
 		this.username = username;
